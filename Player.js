@@ -5,7 +5,6 @@ const { Video } = require('./Video');
 const {
   getNextId,
   checkMaxLength,
-  checkMaxValue,
   checkMinValue,
   checkMinLength,
   checkType,

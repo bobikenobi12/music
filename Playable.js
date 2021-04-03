@@ -1,11 +1,10 @@
 const {
   getNextId,
   checkMaxLength,
-  checkMaxValue,
   checkMinValue,
   checkMinLength,
   checkType,
-  checkInstance,
+  
 } = require('./utils');
 class Playable {
   _id;

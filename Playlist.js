@@ -1,15 +1,12 @@
 const {
   getNextId,
   checkMaxLength,
-  checkMaxValue,
   checkMinValue,
   checkMinLength,
   checkType,
   checkInstance,
 } = require('./utils');
 const { Playable } = require('./Playable');
-const { Audio } = require('./Audio');
-const { Video } = require('./Video');
 
 class Playlist {
   _name;
