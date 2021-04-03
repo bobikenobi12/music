@@ -33,9 +33,6 @@ const checkInstance = (value, classInstance, fieldName) => {
     throw new Error(`${fieldName} must be instance of ${classInstance}!`);
   }
 };
-// module.exports.getNextId = getNextId;
-// module.exports.checkMaxLength = checkMaxLength;
-// module.exports.getNextId = getNextId;
 module.exports = {
   getNextId,
   checkMaxLength,

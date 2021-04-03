@@ -65,9 +65,6 @@ class Playlist {
 
   listPlayables(page, size) {
     checkMinValue(page, 0, 'page');
-    // if (size <= 0) {
-    //   throw new Error('Size must be a number greater than 0!');
-    // }
     checkMaxValue(0, size, 'size');
     let result = [];
     for (let i = page * size; i < page * size + size; i++) {
