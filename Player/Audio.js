@@ -1,7 +1,6 @@
 const { Playable } = require('./Playable');
 const {
-  
-  checkMaxValue,
+  checkMinValue,
   checkType,
 } = require('./utils');
 class Audio extends Playable {
