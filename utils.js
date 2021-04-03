@@ -28,9 +28,9 @@ const checkType = (value, requiredType, fieldName) => {
     throw new Error(`The ${fieldName} must be of type ${requiredType}!`);
   }
 };
-const checkInstance = (value, classInstance, fieldName) => {
+const checkInstance = (value, classInstance, instanceName) => {
   if (!(value instanceof classInstance)) {
-    throw new Error(`${fieldName} must be instance of ${classInstance}!`);
+    throw new Error(`${instanceName} must be instance of ${classInstance}!`);
   }
 };
 module.exports = {
