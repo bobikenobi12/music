@@ -8,7 +8,7 @@ class Audio extends Playable {
   _length;
   set length(val) {
     checkType(val, 'number', 'length');
-    checkMaxValue(0, val, 'length');
+    checkMinValue(val, 1, 'length');
     this._length = val;
   }
   get length() {

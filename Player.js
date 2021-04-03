@@ -102,7 +102,7 @@ class Player {
 
   listPlaylists(page, size) {
     checkMinValue(page, 0, 'page')
-    checkMaxValue(0, size, 'size')
+    checkMinValue(size, 1, 'size')
     let result = [];
     for (let i = page * size; i < page * size + size; i++) {
       if (!this.playlists[i]) {
