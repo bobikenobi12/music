@@ -25,9 +25,11 @@
     - has `id`
     - automatically generates `id`'s
     - has an array of `Playables`
-  -  ***Has the following methods*** :
+ - ***Has the following methods*** :
     - `addPlayable`
     - `getPlayableById`
     - `removePlayableById`
     - `listPlayables`
 5. `Player` :
+    - has `name`
+    - has ``
